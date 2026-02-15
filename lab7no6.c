@@ -17,7 +17,7 @@ int main() {
 
     srand(time(NULL));
 
-    // ??????????????????? array
+    // กำหนดค่าเริ่มต้นให้ array
     for (j = 0; j < 20; j++) {
         for (k = 0; k < 20; k++) {
             array[j][k] = -1;
@@ -56,4 +56,5 @@ int main() {
 int random100to200() {
     return (rand() % 101) + 100;
 }
+
 
